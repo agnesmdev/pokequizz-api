@@ -1,0 +1,75 @@
+openapi: 3.0.0
+info:
+  description: API to request Pokémon information for quizzes
+  version: "1.0.0"
+  title: Pokequizz API
+tags:
+  - name: types
+  - name: attacks
+paths:
+  /types/{type}:
+    get:
+      tags:
+        - types
+      summary: Get all Pokémon for a given type
+      operationId: getTypedPokemon
+      parameters:
+        - in: path
+          name: type
+          description: Type of the Pokémon to return
+          required: true
+          schema:
+            $ref: '#/components/schemas/PokemonType'
+      responses:
+        '200':
+          description: All Pokémon with the given type
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Pokemon'
+        '400':
+          description: Incorrect type
+        '500':
+          description: Unexpected error
+        '502':
+          description: External service unavailable
+        '503':
+          description: Internal service unavailable
+components:
+  schemas:
+    PokemonType:
+      enum:
+        - normal
+        - fire
+        - water
+        - grass
+        - flying
+        - fighting
+        - poison
+        - electric
+        - ground
+        - rock
+        - psychic
+        - ice
+        - bug
+        - ghost
+        - steel
+        - dragon
+        - dark
+        - fairy
+    Pokemon:
+      type: object
+      properties:
+        number:
+          type: integer
+          description: Number of the Pokémon in the national Pokédex
+        name:
+          type: string
+          description: Name of the Pokémon
+        otherType:
+          $ref: '#/components/schemas/PokemonType'
+      required:
+        - number
+        - name
