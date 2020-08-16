@@ -1,0 +1,286 @@
+[
+  {
+    "number": 25,
+    "name": "Pikachu",
+    "primaryType": "Electric"
+  },
+  {
+    "number": 26,
+    "name": "Raichu",
+    "primaryType": "Electric"
+  },
+  {
+    "number": 74,
+    "name": "Geodude Alola",
+    "primaryType": "Rock",
+    "secondaryType": "Electric"
+  },
+  {
+    "number": 75,
+    "name": "Graveler Alola",
+    "primaryType": "Rock",
+    "secondaryType": "Electric"
+  },
+  {
+    "number": 76,
+    "name": "Golem Alola",
+    "primaryType": "Rock",
+    "secondaryType": "Electric"
+  },
+  {
+    "number": 81,
+    "name": "Magnemite",
+    "primaryType": "Electric",
+    "secondaryType": "Steel"
+  },
+  {
+    "number": 82,
+    "name": "Magneton",
+    "primaryType": "Electric",
+    "secondaryType": "Steel"
+  },
+  {
+    "number": 100,
+    "name": "Voltorb",
+    "primaryType": "Electric"
+  },
+  {
+    "number": 101,
+    "name": "Electrode",
+    "primaryType": "Electric"
+  },
+  {
+    "number": 125,
+    "name": "Electabuzz",
+    "primaryType": "Electric"
+  },
+  {
+    "number": 135,
+    "name": "Jolteon",
+    "primaryType": "Electric"
+  },
+  {
+    "number": 145,
+    "name": "Zapdos",
+    "primaryType": "Electric",
+    "secondaryType": "Flying"
+  },
+  {
+    "number": 170,
+    "name": "Chinchou",
+    "primaryType": "Water",
+    "secondaryType": "Electric"
+  },
+  {
+    "number": 171,
+    "name": "Lanturn",
+    "primaryType": "Water",
+    "secondaryType": "Electric"
+  },
+  {
+    "number": 172,
+    "name": "Pichu",
+    "primaryType": "Electric"
+  },
+  {
+    "number": 179,
+    "name": "Mareep",
+    "primaryType": "Electric"
+  },
+  {
+    "number": 180,
+    "name": "Flaaffy",
+    "primaryType": "Electric"
+  },
+  {
+    "number": 181,
+    "name": "Ampharos",
+    "primaryType": "Electric"
+  },
+  {
+    "number": 239,
+    "name": "Elekid",
+    "primaryType": "Electric"
+  },
+  {
+    "number": 243,
+    "name": "Raikou",
+    "primaryType": "Electric"
+  },
+  {
+    "number": 309,
+    "name": "Electrike",
+    "primaryType": "Electric"
+  },
+  {
+    "number": 310,
+    "name": "Manectric",
+    "primaryType": "Electric"
+  },
+  {
+    "number": 311,
+    "name": "Plusle",
+    "primaryType": "Electric"
+  },
+  {
+    "number": 312,
+    "name": "Minun",
+    "primaryType": "Electric"
+  },
+  {
+    "number": 403,
+    "name": "Shinx",
+    "primaryType": "Electric"
+  },
+  {
+    "number": 404,
+    "name": "Luxio",
+    "primaryType": "Electric"
+  },
+  {
+    "number": 405,
+    "name": "Luxray",
+    "primaryType": "Electric"
+  },
+  {
+    "number": 417,
+    "name": "Pachirisu",
+    "primaryType": "Electric"
+  },
+  {
+    "number": 462,
+    "name": "Magnezone",
+    "primaryType": "Electric",
+    "secondaryType": "Steel"
+  },
+  {
+    "number": 466,
+    "name": "Electivire",
+    "primaryType": "Electric"
+  },
+  {
+    "number": 479,
+    "name": "Rotom",
+    "primaryType": "Electric",
+    "secondaryType": "Ghost"
+  },
+  {
+    "number": 522,
+    "name": "Blitzle",
+    "primaryType": "Electric"
+  },
+  {
+    "number": 523,
+    "name": "Zebstrika",
+    "primaryType": "Electric"
+  },
+  {
+    "number": 587,
+    "name": "Emolga",
+    "primaryType": "Electric",
+    "secondaryType": "Flying"
+  },
+  {
+    "number": 595,
+    "name": "Joltik",
+    "primaryType": "Bug",
+    "secondaryType": "Electric"
+  },
+  {
+    "number": 596,
+    "name": "Galvantula",
+    "primaryType": "Bug",
+    "secondaryType": "Electric"
+  },
+  {
+    "number": 602,
+    "name": "Tynamo",
+    "primaryType": "Electric"
+  },
+  {
+    "number": 603,
+    "name": "Eelektrik",
+    "primaryType": "Electric"
+  },
+  {
+    "number": 604,
+    "name": "Eelektross",
+    "primaryType": "Electric"
+  },
+  {
+    "number": 618,
+    "name": "Stunfisk",
+    "primaryType": "Ground",
+    "secondaryType": "Electric"
+  },
+  {
+    "number": 642,
+    "name": "Thundurus Incarnate",
+    "primaryType": "Electric",
+    "secondaryType": "Flying"
+  },
+  {
+    "number": 644,
+    "name": "Zekrom",
+    "primaryType": "Dragon",
+    "secondaryType": "Electric"
+  },
+  {
+    "number": 694,
+    "name": "Helioptile",
+    "primaryType": "Electric",
+    "secondaryType": "Normal"
+  },
+  {
+    "number": 695,
+    "name": "Heliolisk",
+    "primaryType": "Electric",
+    "secondaryType": "Normal"
+  },
+  {
+    "number": 702,
+    "name": "Dedenne",
+    "primaryType": "Electric",
+    "secondaryType": "Fairy"
+  },
+  {
+    "number": 737,
+    "name": "Charjabug",
+    "primaryType": "Bug",
+    "secondaryType": "Electric"
+  },
+  {
+    "number": 738,
+    "name": "Vikavolt",
+    "primaryType": "Bug",
+    "secondaryType": "Electric"
+  },
+  {
+    "number": 741,
+    "name": "Oricorio Pom Pom",
+    "primaryType": "Electric",
+    "secondaryType": "Flying"
+  },
+  {
+    "number": 777,
+    "name": "Togedemaru",
+    "primaryType": "Electric",
+    "secondaryType": "Steel"
+  },
+  {
+    "number": 785,
+    "name": "Tapu Koko",
+    "primaryType": "Electric",
+    "secondaryType": "Fairy"
+  },
+  {
+    "number": 796,
+    "name": "Xurkitree",
+    "primaryType": "Electric"
+  },
+  {
+    "number": 807,
+    "name": "Zeraora",
+    "primaryType": "Electric"
+  }
+]

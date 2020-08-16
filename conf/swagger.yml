@@ -68,8 +68,11 @@ components:
         name:
           type: string
           description: Name of the Pokémon
-        otherType:
+        primaryType:
+          $ref: '#/components/schemas/PokemonType'
+        secondaryType:
           $ref: '#/components/schemas/PokemonType'
       required:
         - number
         - name
+        - primaryType
