@@ -7,7 +7,7 @@ organization := "dev.agnesm"
 version := "1.0.0"
 scalaVersion := "2.12.10"
 
-coverageEnabled := true
+coverageEnabled := false
 coverageMinimum := 70
 coverageFailOnMinimum := true
 
