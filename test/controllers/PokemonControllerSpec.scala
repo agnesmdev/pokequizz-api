@@ -31,8 +31,8 @@ class PokemonControllerSpec extends PlaySpec with MockitoSugar with ScalaFutures
   }
 
   val pokemon = Seq(
-    Pokemon(25, "Pikachu", None),
-    Pokemon(81, "Magnemite", Some(SteelType))
+    Pokemon(25, "Pikachu", ElectricType, None),
+    Pokemon(81, "Magnemite", ElectricType, Some(SteelType))
   )
 
   "PokemonController getPokemonByType" should {

@@ -4,7 +4,8 @@ import play.api.libs.json.{Json, Writes}
 
 case class Pokemon(number: Int,
                    name: String,
-                   otherType: Option[PokemonType] = None)
+                   primaryType: PokemonType,
+                   secondaryType: Option[PokemonType] = None)
 
 case class PokemonLite(id: Int, name: String)
 

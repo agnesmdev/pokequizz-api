@@ -27,7 +27,7 @@ class LoggingFilter @Inject()(implicit val mat: Materializer, ec: ExecutionConte
 
       MDC.put(correlationIdParameter, correlationId)
       nextFilter(requestHeader).map { result =>
-        result.withHeaders(correlationIdHeader -> correlationId)
+        result.withHeaders(correlationIdHeader -> correlationId, "Access-Control-Allow-Origin" -> "*")
       }
     }
   }

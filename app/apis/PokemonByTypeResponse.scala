@@ -8,7 +8,7 @@ import play.api.libs.json.{Json, Reads}
 case class PokemonByTypeResponse(pokemon: Seq[PokemonByTypeResource])
 
 case class PokemonByIdResponse(species: PokemonSpecies, name: String, types: Seq[PokemonTypeResource]) extends StringHelper {
-  def toPokemon: Pokemon = Pokemon(species.number, name.wordsCapitalize, types.drop(1).lastOption.map(_.toPokemonType))
+  def toPokemon: Pokemon = Pokemon(species.number, name.wordsCapitalize, types.head.toPokemonType, types.drop(1).lastOption.map(_.toPokemonType))
 }
 
 case class PokemonSpecies(name: String, url: String) {

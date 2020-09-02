@@ -25,8 +25,8 @@ class PokemonServiceSpec extends PlaySpec with MockitoSugar with ScalaFutures wi
   val additionalFormPokemonLite: PokemonLite = PokemonLite(10020, "thundurus-therian")
   val pokemonLite: Seq[PokemonLite] = Seq(classicalPokemonLite, formPokemonLite, additionalFormPokemonLite)
 
-  val classicalPokemon: Pokemon = Pokemon(25, "pikachu")
-  val formPokemon: Pokemon = Pokemon(642, "thundurus-incarnate", Some(FlyingType))
+  val classicalPokemon: Pokemon = Pokemon(25, "pikachu", ElectricType)
+  val formPokemon: Pokemon = Pokemon(642, "thundurus-incarnate", ElectricType, Some(FlyingType))
 
   before {
     reset(pokemonApi)

@@ -83,7 +83,7 @@ object FairyType extends PokemonType {
 case class UnknownType(name: String) extends PokemonType
 
 object PokemonType {
-  implicit val pokemonTypeWrites: Writes[PokemonType] = pt => JsString(pt.toString.capitalize)
+  implicit val pokemonTypeWrites: Writes[PokemonType] = pt => JsString(pt.toString)
 
   def apply(value: String): PokemonType = value.toUpperCase match {
     case NormalType.name => NormalType
